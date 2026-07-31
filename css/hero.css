@@ -1,0 +1,166 @@
+/*==============================
+            HERO
+===============================*/
+
+.hero{
+
+    min-height:100vh;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    align-items:center;
+
+    gap:120px;
+
+    padding:0 8%;
+
+    background:#0D0D0D;
+
+}
+
+.hero-left{
+
+    max-width:620px;
+
+}
+
+.logo{
+
+    width:260px;
+
+    margin-bottom:35px;
+
+}
+
+.hero h1{
+
+    font-family:'Bebas Neue',sans-serif;
+
+    font-size:6rem;
+
+    line-height:.9;
+
+    color:white;
+
+}
+
+.hero h1 span{
+
+    color:#6A2C91;
+
+}
+
+.hero p{
+
+    margin:30px 0;
+
+    color:#bdbdbd;
+
+    line-height:1.8;
+
+    max-width:500px;
+
+    font-size:18px;
+
+}
+
+.btn-principal{
+
+    display:inline-block;
+
+    padding:18px 45px;
+
+    border-radius:50px;
+
+    background:#6A2C91;
+
+    color:white;
+
+    font-weight:600;
+
+    transition:.35s;
+
+    box-shadow:0 0 30px rgba(106,44,145,.35);
+
+}
+
+.btn-principal:hover{
+
+    background:#6A2C91;
+
+    transform:translateY(-5px);
+
+}
+
+.hero-right{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:flex-end;
+
+    animation:fadeRight .8s ease;
+
+}
+
+.hero-image{
+
+    width:100%;
+
+    max-width:650px;
+
+    border-radius:25px;
+
+    transition:.4s;
+
+    box-shadow:0 35px 70px rgba(0,0,0,.6);
+
+}
+
+.hero-image:hover{
+
+    transform:scale(1.03);
+
+}
+@keyframes fadeLeft{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(-60px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:none;
+
+    }
+
+}
+
+@keyframes fadeRight{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(60px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:none;
+
+    }
+
+}

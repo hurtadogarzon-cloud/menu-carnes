@@ -1,0 +1,81 @@
+/*==============================
+            INFO
+===============================*/
+
+.info{
+
+    padding:80px 8%;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+    background:#111;
+
+}
+
+.info-box{
+
+    background:#171717;
+
+    border-radius:20px;
+
+    padding:35px;
+
+}
+
+.info-box h3{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.info-box p{
+
+    color:#BDBDBD;
+
+    line-height:1.8;
+
+}
+
+.info-box a{
+
+    color:#6A2C91;
+
+    font-weight:600;
+
+}
+
+/*==============================
+            FOOTER
+===============================*/
+
+footer{
+
+    padding:40px;
+
+    text-align:center;
+
+    background:black;
+
+}
+
+footer p{
+
+    color:#BDBDBD;
+
+    margin-bottom:10px;
+
+}
+
+footer strong{
+
+    color:#6A2C91;
+
+    letter-spacing:2px;
+
+}

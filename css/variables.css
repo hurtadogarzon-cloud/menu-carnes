@@ -1,0 +1,23 @@
+:root{
+
+    --black:#0D0D0D;
+
+    --card:#171717;
+
+    --purple:#6A2C91;
+
+    --gold:#D4AF37;
+
+    --copper:#B86A3C;
+
+    --white:#FFFFFF;
+
+    --gray:#BDBDBD;
+
+    --transition:.35s ease;
+
+    --radius:18px;
+
+    --shadow:0 15px 40px rgba(0,0,0,.45);
+
+}
