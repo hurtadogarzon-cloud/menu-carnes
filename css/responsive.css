@@ -25,8 +25,46 @@
     }
     
     .card{
-    
+
         grid-template-columns:1fr;
+    
+    }
+    
+    .card img{
+    
+        width:100%;
+    
+        height:240px;
+    
+    }
+    
+    .card-info{
+
+        padding:20px;
+    
+    }
+    
+    .card img{
+    
+        height:220px;
+    
+    }
+    
+    .card h4{
+    
+        font-size:1.8rem;
+    
+    }
+    
+    .card p{
+    
+        font-size:.95rem;
+    
+    }
+    
+    .card h4{
+    
+        text-align:right;
     
     }
     
@@ -76,10 +114,11 @@
     
     }
     
-    .card-info{
     
-        padding:25px;
     
     }
+
+
+
+
     
-    }

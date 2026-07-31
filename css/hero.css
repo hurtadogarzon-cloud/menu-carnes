@@ -24,13 +24,19 @@
 
     max-width:620px;
 
+    display:flex;
+
+    flex-direction:column;
+
 }
 
 .logo{
 
-    width:260px;
+    width:390px;
 
-    margin-bottom:35px;
+    margin-bottom:30px;
+
+    align-self:center;
 
 }
 
