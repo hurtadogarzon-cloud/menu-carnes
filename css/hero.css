@@ -28,6 +28,10 @@
 
     flex-direction:column;
 
+    align-items:center;
+
+    text-align:center;
+
 }
 
 .logo{
@@ -41,15 +45,21 @@
 }
 
 .hero h1{
-
     font-family:'Bebas Neue',sans-serif;
-
     font-size:6rem;
-
-    line-height:.9;
-
+    line-height:0.85;
     color:white;
+    margin:0;
+}
 
+.hero h1 .linea1{
+    display:block;
+    color:white;
+}
+
+.hero h1 .linea2{
+    display:block;
+    color:#6A2C91;
 }
 
 .hero h1 span{
@@ -70,6 +80,8 @@
 
     font-size:18px;
 
+    text-align:center;
+
 }
 
 .btn-principal{
@@ -89,6 +101,8 @@
     transition:.35s;
 
     box-shadow:0 0 30px rgba(106,44,145,.35);
+
+    align-self:center;
 
 }
 

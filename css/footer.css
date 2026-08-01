@@ -79,3 +79,29 @@ footer strong{
     letter-spacing:2px;
 
 }
+
+.schedule-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px 35px;
+}
+
+.schedule-grid div{
+    color:#BDBDBD;
+    line-height:1.8;
+}
+
+.schedule-grid strong{
+    display:block;
+    color:white;
+    margin-bottom:5px;
+}
+
+@media (max-width:768px){
+
+    .schedule-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+}
