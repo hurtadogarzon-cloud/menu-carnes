@@ -4,17 +4,15 @@
 
 .hero{
 
-    min-height:100vh;
+    min-height:90vh;
 
-    display:grid;
+    display:flex;
 
-    grid-template-columns:1fr 1fr;
+    justify-content:center;
 
     align-items:center;
 
-    gap:120px;
-
-    padding:0 8%;
+    padding:80px 8%;
 
     background:#0D0D0D;
 
@@ -22,7 +20,9 @@
 
 .hero-left{
 
-    max-width:620px;
+    width:100%;
+
+    max-width:700px;
 
     display:flex;
 
@@ -30,23 +30,25 @@
 
     align-items:center;
 
+    justify-content:center;
+
     text-align:center;
 
 }
 
 .logo{
 
-    width:390px;
+    width:430px;
 
-    margin-bottom:30px;
+    max-width:90%;
 
-    align-self:center;
+    margin-bottom:25px;
 
 }
 
 .hero h1{
     font-family:'Bebas Neue',sans-serif;
-    font-size:6rem;
+    font-size:7rem;
     line-height:0.85;
     color:white;
     margin:0;
@@ -70,15 +72,15 @@
 
 .hero p{
 
-    margin:30px 0;
+    margin:25px 0 40px;
 
     color:#bdbdbd;
 
     line-height:1.8;
 
-    max-width:500px;
+    max-width:620px;
 
-    font-size:18px;
+    font-size:1.2rem;
 
     text-align:center;
 
@@ -114,37 +116,6 @@
 
 }
 
-.hero-right{
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:flex-end;
-
-    animation:fadeRight .8s ease;
-
-}
-
-.hero-image{
-
-    width:100%;
-
-    max-width:650px;
-
-    border-radius:25px;
-
-    transition:.4s;
-
-    box-shadow:0 35px 70px rgba(0,0,0,.6);
-
-}
-
-.hero-image:hover{
-
-    transform:scale(1.03);
-
-}
 @keyframes fadeLeft{
 
     from{
@@ -165,22 +136,4 @@
 
 }
 
-@keyframes fadeRight{
 
-    from{
-
-        opacity:0;
-
-        transform:translateX(60px);
-
-    }
-
-    to{
-
-        opacity:1;
-
-        transform:none;
-
-    }
-
-}
